@@ -1,0 +1,70 @@
+img {
+  text-align: center;
+  display:block;
+  margin:auto;
+  margin-top: 50px;
+  mix-blend-mode: hard-light;
+}
+
+@font-face {
+  font-family: "Archivo Black";
+  src:url("ArchivoBlack-Regular.ttf")
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-family:"Archivo Black";
+  color:white;
+  -webkit-text-stroke: 2.5px rgb(165, 155, 150);
+  letter-spacing:-4px;
+  line-height: 50px;
+}
+
+body {
+  background-color: rgb(227, 5,2);
+  background-image: url("bg\ image.png");
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-blend-mode:hard-light;
+}
+
+.kasisto-start-page {
+  font-size: 50px;
+  font-weight:bolder;
+  text-align:center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  vertical-align:middle;
+}
+
+
+
+.start-button {
+  background-color:rgb(88,181,134);
+  color:white;
+  border-width: 10px;
+  border-color:white;
+  border-style: solid;
+  font-size: 50px;
+  font-family: "Archivo Black";
+  font-weight: bold;
+  padding: 1px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 60px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display:block;
+  margin:auto;
+  width:fit-content;
+  letter-spacing: 3px;
+}
+
+.start-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.15s;
+}
